@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы</title>
+</head>
+
+<body>
+    <form action="">
+        <!-- тег формы -->
+        <label for="почта"></label>
+        <p><b><i>
+
+                    <input type="text" placeholder="введите логин" name="Login" required>
+                    <!-- текстовое поле -->
+        </p></b></i>
+        <p>
+            <input type="password" placeholder="введите пароль" name="password" id="" required>
+            <!-- поле для ввода пароля -->
+        </p>
+
+        <p><b>
+                Ваши интересы:</p></b>
+
+        <label>
+            <input type="checkbox" name="" id=""> спорт<br></label>
+        <label>
+            <input type="checkbox" name="Интересы" value="программирование" checked> программирование<br></label>
+        <label> <input type="checkbox" name="Интересы" value="рисование" id="art"> рисование<br></label>
+        <label> <input type="checkbox" name="Интересы" id="почта" value="почта"> почта<br></label>
+        <label><input type="checkbox" name="Интересы" value="карандаш"> карандаш<br></label>
+        <!-- выбор нескольких элементов -->
+        <h3>способ оплаты:</h3>
+        <label><input type="radio" name="Плата" value="card" id=""> карта</label><br>
+        <label><input type="radio" name="Плата" value="cash" id=""> просто деньги</label><br>
+        <label><input type="radio" name="Плата" value="Qrcode" id=""> Qr код</label><br>
+        <!-- выбор одного элемента -->
+        <h3>Ваш город
+
+        </h3>
+        <p><b><i>
+                    <select name="city" id=""><!-- выбор из выполывающего списка -->
+                        <option value="moscow">Moscow</option>
+                        <option value="Novosibirsk">Novosibirsk</option>
+                        <option value="Tyumen">Tyumen</option>
+                    </select>
+        </p></i></b>
+        <h3>Введите комментарий</h3>
+        <Textarea name="comment"></Textarea>
+
+        <!-- комментарий -->
+        <p>
+
+            <button type="reset" name="Очистить">Очистить</button><br>
+            <!-- кнопка очистить -->
+        <p>
+
+            <input type="submit" value="Войти"> <!--кнопка отправить-->
+        </p>
+        </p>
+
+
+    </form>
+
+</body>
+
+</html>
